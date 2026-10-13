@@ -13,7 +13,10 @@ config_version=5
 config/name="gopunct"
 run/main_scene="uid://bvia8jyf3d6kt"
 config/features=PackedStringArray("4.7", "Mobile")
-config/icon="res://icon.svg"
+
+[autoload]
+
+GameTimer="*uid://v1h3imamfuxp"
 
 [display]
 
